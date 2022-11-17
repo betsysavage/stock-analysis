@@ -5,9 +5,12 @@ In this challenge, our client, Steve, requested some help analyzing stock perfor
 -
 ### Results ###
 **1. Compare the stock performance between 2017 and 2018**
+
 The difference between the two years is quite large. While 11 out of 12 stocks were traded with positive returns in 2017, 2018 saw an overall decline in stock performance. 
 <img width="462" alt="image" src="https://user-images.githubusercontent.com/114873837/202334342-efaec9a5-bfe4-4af1-99cb-cf912de5f3e7.png">
-This trend of strong 2017 performance, followed by declining 2018 stock values, seems to be true for the majority of stocks listed in our analysis. The only exceptions are. It is recommended that Steve conduct further analysis to explain this overall trend so he can best advise his parents. Are there common traits in the 12 companies examined within this analysis (i.e. same industry, similar products, or other market forces) that could explain this trend? Did the stock prices and trading patterns recover the following year? Answering these questions will allow Steve to hypothesize how results of this analysis would appear across a larger sample size, and would better equip Steve to forecast stock performance and advise his parents' investment strategy.  
+
+This trend of strong 2017 performance, followed by declining 2018 stock values, seems to be true for the majority of stocks listed in our analysis. The only exceptions are companies with the ticker names of "ENPH" and "RUN", which perform strongly with positive returns in both years. The only company that is unsuccessful in both years is "TERPH". It is recommended that Steve conduct further analysis to explain this overall trend so he can best advise his parents. Are there common traits in the 12 companies examined within this analysis (i.e. same industry, similar products, or other market forces) that could explain this downward trend? Are there common traits or strategies used by ENPH and RUN that would have allowed them to succeed in a year when other stock values struggled? Did the stock prices and trading patterns recover the following year? Answering these questions will allow Steve to hypothesize how results of this analysis would appear across a larger sample size, and would better equip Steve to forecast stock performance and advise his parents' investment strategy.  
+
 **2. Compare the execution times of the original script and the refactored script**
 
 The original script produced a result in 0.078125 seconds for the 2017 stock analysis, and a result in 0.08984375 seconds for the 2018 stock analysis.
