@@ -5,6 +5,7 @@ In this challenge, our client, Steve, requested some help analyzing stock perfor
 -
 ### Results ###
 **1. Compare the stock performance between 2017 and 2018**
+
 The stock performance results were produced by creating a VBA code to repeat calculations for the daily volume of traded stocks and the annual rate of return for each company's ticker code. Unlike the original code, the refactored code is looping the calculations over a ticker index instead of over each row of data. 
 
 To set up this refactored code, I created a ticker index variable that reflects the index value of each ticker. Then, I created arrays for outputs that will be calculated within the for loop. 
