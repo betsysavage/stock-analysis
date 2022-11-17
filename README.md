@@ -9,7 +9,7 @@ In this challenge, our client, Steve, requested some help analyzing stock perfor
 The difference between the two years is quite large. While 11 out of 12 stocks were traded with positive returns in 2017, 2018 saw an overall decline in stock performance. 
 
 
-<img width="462" alt="image" src="https://user-images.githubusercontent.com/114873837/202334342-efaec9a5-bfe4-4af1-99cb-cf912de5f3e7.png">
+<img width="469" alt="image" src="https://user-images.githubusercontent.com/114873837/202518621-fefc80d4-42af-467a-8796-895bb0a4b2e4.png">
 
 
 
@@ -27,13 +27,14 @@ The refactored script produced a result in 0.046875 seconds for the 2017 stock a
 <img width="265" alt="image" src="https://user-images.githubusercontent.com/114873837/202326659-84a01639-e214-411b-9249-d94e4b7c7525.png">
 <img width="265" alt="image" src="https://user-images.githubusercontent.com/114873837/202326726-be73692a-1c0e-4850-a2a3-8f1f67564820.png">
 
-While the speed of these results is fast for both versions of the script, the time savings add up. Refactoring the script has resulted in the run time being reduced by nearly 50%! This workbook only focuses on 12 stock tickers, but ultimately Steve wants to expand his analysis to the entire stock market. When examining such a large data set, the efficiency of the script will be crucial in effectively generating results.
+While the speed of these results is fast for both versions of the script, the time being saved in the refactored script adds up. Refactoring the script has resulted in the run time being reduced by nearly 50%! This workbook only focuses on 12 stock tickers, but ultimately Steve wants to expand his analysis to the entire stock market. When examining such a large data set, the efficiency of the script will be crucial in effectively generating results.
 
+The refactored code can work more quickly because the for loop has been set up to loop through the ticker index numbers, of which there are 12, instead of each individual row.
 
 ### Summary ###
 1. What are the advantages and disadvantages of refactoring code?
-The process of code refactoring...
-
-The primary disadvantage of refactoring code is its cost, both in time and money. Rearranging code to make it more readable and efficient can take a good deal of staff time, between debugging and reviewing. I struggled at several points in this analysis with error messages that prevented the script from running at all, which made it challenging to test different pieces of the code. It is tempting to fall back on the available option that works, rather than committing to a time confusing and sometimes frustrating process of editing. Ultimately, however, I broke the code into shorter blocks to test each segment, and the ultimate outcome of 
+Refactoring code makes it easier for users to understand and make updates. It requires adding comments and arranging lines of code to make the purpose as clear and efficient as possible. The process of refactoring can also uncover bugs that may have been interfering with functionality. While it takes time, investing in refactoring can allow code to be "cleaned up" so it can eventually be applied on a larger scale.
+The primary disadvantage of refactoring code is its cost, both in time and money, with no real change in functionality of the output. Rearranging code to make it more readable and efficient can take a good deal of staff time, between debugging and reviewing. I struggled at several points in this analysis with error messages that prevented the script from running at all, which made it challenging to test different pieces of the code. It is tempting to fall back on the available option that works, rather than committing to a time confusing and sometimes frustrating process of editing. Ultimately, however, I broke the code into shorter blocks to test each segment, and the ultimate outcome of 
+(Background research for this question was found on https://stackoverflow.com/questions/43983284/what-are-the-advantages-and-disadvantages-of-refactoring-code-smell-in-software)
 
 2. How do these pros and cons apply to refactoring the original VBA script?
