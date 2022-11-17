@@ -9,10 +9,12 @@ In this challenge, our client, Steve, requested some help analyzing stock perfor
 **2. Compare the execution times of the original script and the refactored script**
 
 The original script produced a result in 0.078125 seconds for the 2017 stock analysis, and a result in 0.08984375 seconds for the 2018 stock analysis.
+-
 <img width="420" alt="image" src="https://user-images.githubusercontent.com/114873837/202326334-06ce224c-ff92-42fc-82a0-09101c5a9e77.png">
 <img width="431" alt="image" src="https://user-images.githubusercontent.com/114873837/202326852-4f67be95-98ab-42c1-b2e1-761cc89e28e0.png">
 
 The refactored script produced a result in 0.04687 seconds for the 2017 stock analysis, and a result in 0.046875 seconds for the 2018 stock analysis.
+-
 <img width="265" alt="image" src="https://user-images.githubusercontent.com/114873837/202326659-84a01639-e214-411b-9249-d94e4b7c7525.png">
 <img width="265" alt="image" src="https://user-images.githubusercontent.com/114873837/202326726-be73692a-1c0e-4850-a2a3-8f1f67564820.png">
 
