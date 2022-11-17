@@ -8,12 +8,15 @@ In this challenge, our client, Steve, requested some help analyzing stock perfor
 The stock performance results were produced by creating a VBA code to repeat calculations for the daily volume of traded stocks and the annual rate of return for each company's ticker code. Unlike the original code, the refactored code is looping the calculations over a ticker index instead of over each row of data. 
 
 To set up this refactored code, I created a ticker index variable that reflects the index value of each ticker. Then, I created arrays for outputs that will be calculated within the for loop. 
+
 <img width="323" alt="image" src="https://user-images.githubusercontent.com/114873837/202557225-5931d878-857e-44fe-95a3-b1c3d106e96f.png">
 
 Next, I set up the for loop that would be used to repeat the calculations
+
 <img width="366" alt="image" src="https://user-images.githubusercontent.com/114873837/202557988-4d594a93-2ef5-4050-96e9-7610654ea611.png">
 
 Then, I defined the calculations themselves that would create the values for tickerVolumes, tickerStartingPrices, and tickerEndingPrices, using an "If Then" statement to set up conditional calculations for the starting price and ending price variables based on the ticker type.
+
 <img width="646" alt="image" src="https://user-images.githubusercontent.com/114873837/202558359-d88da642-4006-4157-8c10-ca185f2d27d8.png">
 
 Once the calculations were defined for each of the variables tickerVolumes, tickerStartingPrices, and tickerEndingPrices, I set up another loop that would generate the output values for all of the variables.
