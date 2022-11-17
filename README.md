@@ -5,8 +5,24 @@ In this challenge, our client, Steve, requested some help analyzing stock perfor
 -
 ### Results ###
 **1. Compare the stock performance between 2017 and 2018**
+The stock performance results were produced by creating a VBA code to repeat calculations for the daily volume of traded stocks and the annual rate of return for each company's ticker code. Unlike the original code, the refactored code is looping the calculations over a ticker index instead of over each row of data. 
 
-The difference between the two years is quite large. While 11 out of 12 stocks were traded with positive returns in 2017, 2018 saw an overall decline in stock performance. 
+To set up this refactored code, I created a ticker index variable that reflects the index value of each ticker. Then, I created arrays for outputs that will be calculated within the for loop. 
+<img width="323" alt="image" src="https://user-images.githubusercontent.com/114873837/202557225-5931d878-857e-44fe-95a3-b1c3d106e96f.png">
+
+Next, I set up the for loop that would be used to repeat the calculations
+<img width="366" alt="image" src="https://user-images.githubusercontent.com/114873837/202557988-4d594a93-2ef5-4050-96e9-7610654ea611.png">
+
+Then, I defined the calculations themselves that would create the values for tickerVolumes, tickerStartingPrices, and tickerEndingPrices, using an "If Then" statement to set up conditional calculations for the starting price and ending price variables based on the ticker type.
+<img width="646" alt="image" src="https://user-images.githubusercontent.com/114873837/202558359-d88da642-4006-4157-8c10-ca185f2d27d8.png">
+
+Once the calculations were defined for each of the variables tickerVolumes, tickerStartingPrices, and tickerEndingPrices, I set up another loop that would generate the output values for all of the variables.
+
+<img width="656" alt="image" src="https://user-images.githubusercontent.com/114873837/202558532-3f183457-2cc9-4262-a9c9-13c1187f23ba.png">
+
+The refactored code produced an output table that was identical to the original code.
+
+As a final result of the analysis, the difference between the two years is quite large. While 11 out of 12 stocks were traded with positive returns in 2017, 2018 saw an overall decline in stock performance. 
 
 
 <img width="469" alt="image" src="https://user-images.githubusercontent.com/114873837/202518621-fefc80d4-42af-467a-8796-895bb0a4b2e4.png">
@@ -29,7 +45,7 @@ The refactored script produced a result in 0.046875 seconds for the 2017 stock a
 
 While the speed of these results is fast for both versions of the script, the time being saved in the refactored script adds up. Refactoring the script has resulted in the run time being reduced by nearly 50%! This workbook only focuses on 12 stock tickers, but ultimately Steve wants to expand his analysis to the entire stock market. When examining such a large data set, the efficiency of the script will be crucial in effectively generating results.
 
-The refactored code can work more quickly because the for loop has been set up to loop through the ticker index numbers, of which there are 12, instead of each individual row.
+The refactored code can work more quickly because the for loop has been set up to loop through the ticker index numbers, of which there are 12, instead of each individual row. Further, the format of the code itself is clearer for the computer to read. 
 
 ### Summary ###
 1. What are the advantages and disadvantages of refactoring code?
