@@ -7,6 +7,8 @@ In this challenge, our client, Steve, requested some help analyzing stock perfor
 **1. Compare the stock performance between 2017 and 2018**
 
 The difference between the two years is quite large. While 11 out of 12 stocks were traded with positive returns in 2017, 2018 saw an overall decline in stock performance. 
+
+
 <img width="462" alt="image" src="https://user-images.githubusercontent.com/114873837/202334342-efaec9a5-bfe4-4af1-99cb-cf912de5f3e7.png">
 
 
