@@ -9,7 +9,9 @@ In this challenge, our client, Steve, requested some help analyzing stock perfor
 The difference between the two years is quite large. While 11 out of 12 stocks were traded with positive returns in 2017, 2018 saw an overall decline in stock performance. 
 <img width="462" alt="image" src="https://user-images.githubusercontent.com/114873837/202334342-efaec9a5-bfe4-4af1-99cb-cf912de5f3e7.png">
 
-This trend of strong 2017 performance, followed by declining 2018 stock values, seems to be true for the majority of stocks listed in our analysis. The only exceptions are companies with the ticker names of "ENPH" and "RUN", which perform strongly with positive returns in both years. The only company that is unsuccessful in both years is "TERPH". It is recommended that Steve conduct further analysis to explain this overall trend so he can best advise his parents. Are there common traits in the 12 companies examined within this analysis (i.e. same industry, similar products, or other market forces) that could explain this downward trend? Are there common traits or strategies used by ENPH and RUN that would have allowed them to succeed in a year when other stock values struggled? Did the stock prices and trading patterns recover the following year? Answering these questions will allow Steve to hypothesize how results of this analysis would appear across a larger sample size, and would better equip Steve to forecast stock performance and advise his parents' investment strategy.  
+
+
+This trend of strong 2017 performance, followed by declining 2018 stock values, seems to be true for the majority of stocks listed in our analysis. The only exceptions are companies with the ticker names of "ENPH" and "RUN", which perform strongly with positive returns in both years. The only company that is unsuccessful in both years is "TERP". It is recommended that Steve conduct further analysis to explain this overall trend so he can best advise his parents. Are there common traits in the 12 companies examined within this analysis (i.e. same industry, similar products, or other market forces) that could explain this downward trend? Are there common traits or strategies used by ENPH and RUN that would have allowed them to succeed in a year when other stock values struggled? Did the stock prices and trading patterns recover the following year? Answering these questions will allow Steve to hypothesize how results of this analysis would appear across a larger sample size, and would better equip Steve to forecast stock performance and advise his parents' investment strategy.  
 
 **2. Compare the execution times of the original script and the refactored script**
 
@@ -23,7 +25,7 @@ The refactored script produced a result in 0.046875 seconds for the 2017 stock a
 <img width="265" alt="image" src="https://user-images.githubusercontent.com/114873837/202326659-84a01639-e214-411b-9249-d94e4b7c7525.png">
 <img width="265" alt="image" src="https://user-images.githubusercontent.com/114873837/202326726-be73692a-1c0e-4850-a2a3-8f1f67564820.png">
 
-While the speed of these results is fast for both versions of the script, the time savings add up. Refactoring the script has resulted in the run time being reduced by nearly 50%! This workbook only focuses on 12 stock tickers, but utlimately Steve wants to expand his analysis to the entire stock market. When examining such a large data set, the efficiency of the script will be crucial in effectively generating results.
+While the speed of these results is fast for both versions of the script, the time savings add up. Refactoring the script has resulted in the run time being reduced by nearly 50%! This workbook only focuses on 12 stock tickers, but ultimately Steve wants to expand his analysis to the entire stock market. When examining such a large data set, the efficiency of the script will be crucial in effectively generating results.
 
 
 ### Summary ###
