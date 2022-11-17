@@ -1,4 +1,4 @@
-# Stock Analysis#
+# Stock Analysis
 ## Overview of Project ##
 ## Purpose ##
 In this challenge, our client, Steve, requested some help analyzing stock performance in order to advise his parents about investment strategies. This analysis involved setting up a macro to automate calculations of various measures of stock performance, including the daily volume of stocks traded throughout the day and the yearly return in price, for the years 2017 and 2018. Using the Visual Basic functionality of Excel allows us to apply formulas to several stocks without individually manipulating calculations for each, and to repeat these formulas in a "loop" pattern over a specified number of values. While writing these macros enabled us to complete the stock analysis more efficiently, the way code is written can have an impact on its speed as well, so this analysis also included refactoring (editing) the available code with the goal of making it run as quickly as possible. Maximizing the efficiency of the script will allow Steve the option to apply this analytical tool to a broader number of stocks.  
